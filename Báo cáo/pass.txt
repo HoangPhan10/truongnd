@@ -1,0 +1,26 @@
+Changed password for user apm_system
+PASSWORD apm_system = 6N1rmdrBB4BL8m7LnhX6
+
+Changed password for user kibana_system
+PASSWORD kibana_system = VjPYeLDQffzNi3ARUZFc
+
+Changed password for user kibana
+PASSWORD kibana = VjPYeLDQffzNi3ARUZFc
+
+Changed password for user logstash_system
+PASSWORD logstash_system = Svqq37gq1idieDIe9O8j
+
+Changed password for user beats_system
+PASSWORD beats_system = havzk9E3vJBUTtSngiTm
+
+Changed password for user remote_monitoring_user
+PASSWORD remote_monitoring_user = RaLywgrmAEe6CFhv8dwl
+
+Changed password for user elastic
+PASSWORD elastic = NEApw6ussIknZ7UqBVTm
+
+
+root@elk:/usr/share/kibana/bin# sudo ./kibana-encryption-keys generate -q
+xpack.encryptedSavedObjects.encryptionKey: 784c65a53eba5b8c13fd83bb7d3a0dc9
+xpack.reporting.encryptionKey: 850376d606fd919452dce72fe69f144b
+xpack.security.encryptionKey: 339978c04fab40104c9545f5108a4fac
